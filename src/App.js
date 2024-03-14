@@ -7,6 +7,7 @@ import Login from './components/login/Login';
 //import CreateAccount from './components/signup/Signup';
 //import ManageNote from './components/manageNote/ManageNote';
 import ManageUsers from './components/manageUsers/ManageUsers';
+import ManageContacts from './components/manageContacts/ManageContacts';
 //import EditNote from './components/manageNote/EditNote';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/manageUsers" element={<ManageUsers />} />
+        <Route path="/manageContacts" element={<ManageContacts />} />
       </Routes>
     </Router>
   );
